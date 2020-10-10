@@ -33,8 +33,7 @@ jobs:
 
       - name: Detect Blank PR
         id: blank-pr-step
-        uses: ./
-        # uses: adcdr/detect-blank-pr-action@1.0.0
+        uses: adcdr/detect-blank-pr-action@1.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           label: 'Blank PR'
