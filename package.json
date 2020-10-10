@@ -1,0 +1,22 @@
+{
+  "name": "detect-blank-pr-action",
+  "version": "1.0.0",
+  "description": "A GitHub action to detect PR's with only whitespace, newline or no changes.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adcdr/detect-blank-pr-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adcdr/detect-blank-pr-action/issues"
+  },
+  "homepage": "https://github.com/adcdr/detect-blank-pr-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "diff-match-patch": "^1.0.5"
+  }
+}

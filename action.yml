@@ -1,0 +1,19 @@
+name: 'Detect Blank PR'
+description: 'Detects if a PR only contains whitespace, newlines or no changes.'
+author: 'adcdr'
+
+branding:
+  icon: 'git-pull-request'
+  color: 'gray-dark'
+
+inputs:
+  repo-token:
+    description: Automatically added.
+    required: true
+  label:
+    description: String to use as a label for blank PR's.
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'index.js'
